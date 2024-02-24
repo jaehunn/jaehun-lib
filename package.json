@@ -1,0 +1,11 @@
+{
+  "name": "jaehun-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jaehunn/jaehun-lib.git",
+  "author": "Jaehun <qkdwogns98@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,11 +1,15 @@
 {
   "name": "jaehun-lib",
+  "priavte": true,
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/jaehunn/jaehun-lib.git",
   "author": "Jaehun <qkdwogns98@gmail.com>",
   "license": "MIT",
   "engines": {
     "node": ">=20"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "yarn@4.1.0"
 }

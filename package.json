@@ -1,9 +1,19 @@
 {
   "name": "jaehun-lib",
+  "description": "",
+  "keywords": [],
   "priavte": true,
   "version": "1.0.0",
-  "repository": "https://github.com/jaehunn/jaehun-lib.git",
-  "author": "Jaehun <qkdwogns98@gmail.com>",
+  "homepage": "https://github.com/jaehunn/jaehun-lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaehunn/jaehun-lib.git"
+  },
+  "author": {
+    "name": "Jaehun",
+    "email": "qkdwogns98@gmail.com",
+    "url": "https://www.jaehun.dev/"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=20"

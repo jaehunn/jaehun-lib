@@ -28,8 +28,7 @@
     "prebuild": "yarn build",
     "build": "yarn run -T tsup",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "publish": "yarn build && npm publish"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",

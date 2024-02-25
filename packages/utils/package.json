@@ -25,8 +25,7 @@
   ],
   "scripts": {
     "prebuild": "yarn build",
-    "build": "yarn run -T tsup",
-    "publish": "yarn build && npm publish"
+    "build": "yarn run -T tsup"
   },
   "devDependencies": {
     "typescript": "^5.3.3"

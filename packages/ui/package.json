@@ -1,8 +1,28 @@
 {
   "name": "@jaehun-lib/ui",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs",
+    "module": "dist/index.js",
+    "types": "dist/index.d.cts",
+    "exports": {
+      ".": {
+        "require": {
+          "types": "./dist/index.d.cts",
+          "default": "./dist/index.cjs"
+        },
+        "import": {
+          "types": "./dist/index.d.ts",
+          "default": "./dist/index.js"
+        }
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "prebuild": "yarn build",

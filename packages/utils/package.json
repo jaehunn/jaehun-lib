@@ -1,9 +1,13 @@
 {
-  "name": "utils",
+  "name": "@jaehun-lib/utils",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "scripts": {
+    "prebuild": "yarn build",
+    "build": "yarn run -T tsup"
+  },
   "devDependencies": {
-    "typescript": "^5.2.2"
+    "typescript": "^5.3.3"
   }
 }

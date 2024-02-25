@@ -1,7 +1,12 @@
 {
   "name": "jaehun-lib",
-  "description": "",
-  "keywords": [],
+  "description": "Jaehun's Library",
+  "keywords": [
+    "react",
+    "components",
+    "javascript",
+    "utils"
+  ],
   "priavte": true,
   "version": "1.0.0",
   "homepage": "https://github.com/jaehunn/jaehun-lib",

@@ -29,7 +29,7 @@
   "packageManager": "yarn@4.1.0",
   "scripts": {
     "build": "yarn workspaces foreach -ptR --from '@jaehun-lib/*' run build",
-    "publish": "yarn build && npm publish"
+    "publish": "yarn workspaces foreach -ptR --from '@jaehun-lib/*' run publish"
   },
   "devDependencies": {
     "tsup": "^8.0.2",

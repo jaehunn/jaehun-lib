@@ -8,7 +8,7 @@
     "utils"
   ],
   "priavte": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/jaehunn/jaehun-lib",
   "repository": {
     "type": "git",
@@ -28,7 +28,8 @@
   ],
   "packageManager": "yarn@4.1.0",
   "scripts": {
-    "build": "yarn workspaces foreach -ptR --from '@jaehun-lib/*' run build"
+    "build": "yarn workspaces foreach -ptR --from '@jaehun-lib/*' run build",
+    "publish": "yarn build && npm publish"
   },
   "devDependencies": {
     "tsup": "^8.0.2",
